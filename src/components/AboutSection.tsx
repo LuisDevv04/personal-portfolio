@@ -49,8 +49,12 @@ export default function AboutSection() {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
-                  <p className="text-muted-foreground"></p>
+                  <h4 className="font-semibold text-lg">Frontend Development</h4>
+                  <p className="text-muted-foreground">
+                    Developing modern web applications with React and
+                    TypeScript, focusing on performance, scalability, and
+                    user-centered design.
+                  </p>
                 </div>
               </div>
             </div>
@@ -60,8 +64,12 @@ export default function AboutSection() {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground"></p>
+                  <h4 className="font-semibold text-lg">Frontend design</h4>
+                  <p className="text-muted-foreground">
+                    Applying design principles to create responsive, accessible,
+                    and visually appealing interfaces using Tailwind CSS and
+                    modern UI libraries.
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,8 +79,12 @@ export default function AboutSection() {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground"></p>
+                  <h4 className="font-semibold text-lg">Agile Mindset</h4>
+                  <p className="text-muted-foreground">
+                    Bringing organization, adaptability, and effective
+                    communication from my coaching background into collaborative
+                    development projects.
+                  </p>
                 </div>
               </div>
             </div>
