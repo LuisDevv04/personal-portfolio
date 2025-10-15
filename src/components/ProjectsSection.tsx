@@ -1,11 +1,4 @@
-import {
-  ArrowRight,
-  ExternalLink,
-  GitGraph,
-  Github,
-  GithubIcon,
-  LucideGithub,
-} from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
