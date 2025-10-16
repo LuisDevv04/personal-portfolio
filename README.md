@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **developer portfolio** built with **React**, **Tailwind CSS**, **Vite**, **Lucide Icons**, and **Radix UI**. Showcases my projects, skills, and ways to get in touch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+> [View Live Portfolio](https://personal-portfolio-alpha-eight-73.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** – UI components and interactivity
+- **Vite** – Fast build and development environment
+- **Tailwind CSS** – Utility-first styling
+- **Lucide Icons** – Clean, customizable icons
+- **Radix UI** – Accessible, reusable UI components
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Fully **responsive design** for desktop, tablet, and mobile
+- **Projects section** highlighting work with live links & code
+- **Skills section** with proficiency levels
+- **Contact section** with email, phone, location, and social links
+- Minimal, clean, and modern layout with smooth UX
+- **Custom components** using Radix UI + Tailwind CSS
+
+---
+
+## 💻 Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Navigate into the folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd portfolio
 ```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+> Open [http://localhost:5173](http://localhost:5173) to see your portfolio locally.
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├─ components/   # Reusable UI components (cards, buttons, sections)
+├─ pages/        # Page-level components
+├─ assets/       # Images, icons, media
+├─ styles/       # Tailwind config & custom styles
+├─ App.jsx       # Main app component
+└─ main.jsx      # Entry point
+```
+
+---
+
+## 📌 Usage
+
+- Add your **projects** in the `Projects` section
+- Update your **skills** with current technologies
+- Customize **contact info** and social links
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.  
+Feel free to **open issues** or **submit pull requests**.
+
+---
+
+## 📄 License
+
+This project is **MIT Licensed** – see the [LICENSE](LICENSE) file for details.
