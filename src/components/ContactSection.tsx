@@ -2,12 +2,9 @@ import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section
-      id="contact"
-      className="py-24 px-4 position-relative bg-secondary/30"
-    >
-      <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text center">
+    <section id="contact" className="py-24 px-4 relative bg-secondary/30">
+      <div className="container mx-auto max-w-5xl text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Get In <span className="text-primary ">Touch</span>
         </h2>
 
@@ -15,7 +12,7 @@ export default function ContactSection() {
           I’m open to new challenges, feel free to get in touch!
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="space-y-6 mb-12 flex flex-col items-center">
           <div className="space-y-8 ">
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
@@ -41,8 +38,8 @@ export default function ContactSection() {
                 <div>
                   <h4>Phone</h4>
                   <a
-                    href="tel:+503 75046554"
-                    className="text-muted-foreground hover:primary transition-colors"
+                    href="tel:+50375046554"
+                    className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +503 75046554
                   </a>
@@ -75,63 +72,6 @@ export default function ContactSection() {
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="bg-card p-8 rounded-large shadow-xs ">
-            <h3 className="text-2xl font-semibodl mb-6">Send a Message</h3>
-
-            <form className="space-y-6 ">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value="name"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-inpute bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Your Name..."
-                />
-              </div>
-              
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value="name"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-inpute bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Your Name..."
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value="name"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-inpute bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Your Name..."
-                />
-              </div>
-            </form>
           </div>
         </div>
       </div>
